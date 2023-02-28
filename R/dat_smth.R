@@ -1,0 +1,29 @@
+#' Loess Smoothing
+#'
+#' @param dat daily data to be smoothed e.g. output from dat_int()
+#' @param span parameter of smoothing
+#'
+#' @return smoothed data
+#' @export
+#'
+#' @examples
+#' library(GMothDef)
+#' dat_smth (s1_VV_t, 0.75)
+dat_smth <- function(dat, span){
+
+  for (i in 2:ncol(dat)){
+    loessMod <- loess(dat[,i] ~ dat[,1], span = span) # smoothing span
+    smoothed <- predict(loessMod)
+    if (i == 2){
+      smth_t <- as.data.frame(dat[,1])
+      smth_t <- cbind(smth_t, smoothed)
+    }else{
+      smth_t <- cbind(smth_t, smoothed)
+    }
+  }
+
+  colnames(smth_t) <- colnames(dat)
+
+
+  return(smth_t)
+}
