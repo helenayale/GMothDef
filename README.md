@@ -11,13 +11,13 @@ is to to run each data processing in one line.
 
 Current functions include:
 
-dat_tiff(): import and extract data from a set of Tiff files, each of which include same amount of band layers ordered in the same way
-dat_folder(): import and extract data from single layer files grouped by band names in separate folders 
-dat_int(): interpolate data 
-dat_smth():smooth data with LOESS smoothing method 
-smth_span(): compare the smoothing results with different smoothing spans 
-rf_reg(): build random forest regression model 
-predict_dat(): predict data using a random forest model
+###dat_tiff(): import and extract data from a set of Tiff files, each of which include same amount of band layers ordered in the same way
+###dat_folder(): import and extract data from single layer files grouped by band names in separate folders 
+###dat_int(): interpolate data 
+###dat_smth():smooth data with LOESS smoothing method 
+###smth_span(): compare the smoothing results with different smoothing spans 
+###rf_reg(): build random forest regression model 
+###predict_dat(): predict data using a random forest model
 
 ## Installation
 
