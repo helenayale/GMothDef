@@ -1,0 +1,25 @@
+Package: GMothDef
+Title: Data Processing for Spongy Moth Defoliation Studies
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Data extraction, interpolation, smoothing, random forest modelling.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+        license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: renv
+Imports: 
+    caret,
+    gtools,
+    RandomForest,
+    raster,
+    rgdal,
+    stringr,
+    TDPanalysis
+NeedsCompilation: no
+Packaged: 2023-02-27 19:19:54 UTC; Haiyin
+Author: First Last [aut, cre] (YOUR-ORCID-ID)
+Maintainer: First Last <first.last@example.com>
