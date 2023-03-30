@@ -1,26 +1,26 @@
 {
-    "id": "57267F1D",
-    "path": "D:/GitHub/GMothDef/R/smth_span.R",
-    "project_path": "R/smth_span.R",
+    "id": "F64A648D",
+    "path": "D:/GitHub/GMothDef/R/dat_tiff.R",
+    "project_path": "R/dat_tiff.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "2820740675",
     "contents": "",
     "dirty": false,
-    "created": 1677700147084.0,
+    "created": 1680185120746.0,
     "source_on_save": false,
-    "relative_order": 5,
+    "relative_order": 3,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "9,12",
-        "scrollLine": "0"
+        "cursorPosition": "12,0",
+        "scrollLine": "8"
     },
     "folds": "",
-    "lastKnownWriteTime": 1680185200,
+    "lastKnownWriteTime": 1680185128,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1680185200991,
+    "last_content_update": 1680185128355,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -8,7 +8,6 @@
 #' @export
 #'
 #' @examples
-
 #' setwd('C:/YourFolder')
 #' VV <- read.csv(file = 'VV.csv')
 #' dat_int(VV, 'VV')
